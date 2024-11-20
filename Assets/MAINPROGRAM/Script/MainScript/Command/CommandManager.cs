@@ -191,7 +191,7 @@ namespace Commands
                 command.DynamicInvoke();
 
             else if (command is Action<string>)
-                command.DynamicInvoke(args[0]);
+                command.DynamicInvoke(args.Length == 0 ? string.Empty : args[0]);
 
             else if (command is Action<string[]>)
                 command.DynamicInvoke((object)args);
@@ -200,7 +200,7 @@ namespace Commands
                 yield return ((Func<IEnumerator>)command)();
 
             else if (command is Func<string, IEnumerator>)
-                yield return ((Func<string, IEnumerator>)command)(args[0]);
+                yield return ((Func<string, IEnumerator>)command)(args.Length == 0 ? string.Empty : args[0]);
 
             else if (command is Func<string[], IEnumerator>)
                 yield return ((Func<string[], IEnumerator>)command)(args);

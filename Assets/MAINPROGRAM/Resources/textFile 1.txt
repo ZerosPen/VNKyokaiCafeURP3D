@@ -1,0 +1,7 @@
+playambience(RainyMood)
+playsong(Calm)
+playvoice(wakeup)
+enter Makima "Yes! its worked!"
+
+stopsong()
+stopambience()

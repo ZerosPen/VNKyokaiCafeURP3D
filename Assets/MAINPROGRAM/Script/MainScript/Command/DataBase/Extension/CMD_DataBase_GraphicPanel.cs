@@ -71,13 +71,12 @@ namespace Commands
             //Try to get the layer to apply this graphic to
             parameters.TryGetValue(Param_UseVideoAudio, out useAudio, defaultValue: false);
 
-            pathToGraphic = GetPathGraphic(FilePaths.resources_backgroundImages, mediaName);
-
+            pathToGraphic = FilePaths.GetPathToResource(FilePaths.resources_backgroundImages, mediaName);
             graphic = Resources.Load<Texture>(pathToGraphic);
 
             if(graphic == null)
             {
-                pathToGraphic = GetPathGraphic(FilePaths.resources_backgroundVideo, mediaName);
+                pathToGraphic = FilePaths.GetPathToResource(FilePaths.resources_backgroundImages, mediaName);
                 graphic = Resources.Load<VideoClip>(pathToGraphic);
             }
 
