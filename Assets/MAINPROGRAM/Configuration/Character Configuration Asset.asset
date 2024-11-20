@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765de66b9995f044f87d6361ded7adf7, type: 3}
+  m_Name: Character Configuration Asset
+  m_EditorClassIdentifier: 
+  characters:
+  - name: Female Student 2
+    alias: fs2
+    CharType: 1
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  - name: Raelin
+    alias: r
+    CharType: 2
+    nameColor: {r: 0.9150943, g: 0.375534, b: 0.5983287, a: 1}
+    dialogueColor: {r: 0.7924528, g: 0.45229617, b: 0.45229617, a: 1}
+    nameFont: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  - name: Generic
+    alias: g
+    CharType: 2
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogueColor: {r: 1, g: 1, b: 1, a: 1}
+    nameFont: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  - name: Ito Yoreki
+    alias: ito
+    CharType: 1
+    nameColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    dialogueColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    nameFont: {fileID: 11400000, guid: 75714946d80681d43963eb2d5398db2f, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 3e7edacc55134294295894617ab4336e, type: 2}
+  - name: Makima
+    alias: makima
+    CharType: 1
+    nameColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    dialogueColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    nameFont: {fileID: 11400000, guid: 75714946d80681d43963eb2d5398db2f, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 3e7edacc55134294295894617ab4336e, type: 2}
+  - name: Hana Janner
+    alias: Hana
+    CharType: 1
+    nameColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    dialogueColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    nameFont: {fileID: 11400000, guid: 75714946d80681d43963eb2d5398db2f, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 3e7edacc55134294295894617ab4336e, type: 2}
+  - name: Makira
+    alias: makira
+    CharType: 1
+    nameColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    dialogueColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    nameFont: {fileID: 11400000, guid: 75714946d80681d43963eb2d5398db2f, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 3e7edacc55134294295894617ab4336e, type: 2}

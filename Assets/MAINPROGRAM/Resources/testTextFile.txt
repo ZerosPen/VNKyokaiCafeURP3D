@@ -1,0 +1,21 @@
+wait(1)
+
+SetLayerMedia(background Nebula), SetLayerMedia(background 1 Spaceshipinterior)
+
+CreatCharacter(Makira -e true -i true)
+
+Makira "welcome :D"
+
+ClearLayerMedia(background -blend blackHole)
+
+Makira "NOW WE IN KNOW!?"
+
+setLayerMedia(cinematic -m "~/Graphics/Gallery/flower")
+
+Makira "NICE PIC!"
+
+ClearLayerMedia(cinematic -i true)
+
+Makira "Cinematic is clear!"
+
+wait(1)

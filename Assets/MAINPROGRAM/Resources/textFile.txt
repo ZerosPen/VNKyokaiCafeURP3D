@@ -1,0 +1,11 @@
+wait(5) CreatCharacter(Raelin -e true), CreatCharacter("Student as Generic"), CreatCharacter("Guard1 as Generic" -e true -i true)
+
+MoveCharacter(Raelin  -x 1  -y -0.5 -spd 0.75 -smooth true -Immadiate true)
+
+Show(Raelin -i false)
+
+Narrator "Showing Characters."
+
+Student "I'm lacking anything of substance to say"
+
+Raelin "Nah bro"
